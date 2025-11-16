@@ -1,0 +1,59 @@
+{
+  "message": "Verification data processed from memory.",
+  "scannedData": {
+    "studentInfo": {
+      "rollCode": "7113",
+      "schoolName": "M.L.J. COLLEGE ,CHAMPANAGAR,BHAGALPUR",
+      "rollNo": "10390",
+      "uniqueId": null,
+      "name": "RITIK DULAR",
+      "motherName": "AADYA CHOUDHARY",
+      "fatherName": "PURUSHOTTAM",
+      "registrationNo": "7113-R-0233/10",
+      "sex": "MALE",
+      "caste": "HINDU",
+      "category": "REG."
+    },
+    "subjects": [
+      { "name": "ENGLISH", "theory": "25", "practical": null, "total": "053" },
+      { "name": "PHYSICS", "theory": "16", "practical": "11", "total": "26" },
+      { "name": "CHEMISTRY", "theory": "24", "practical": "16", "total": "27" },
+      { "name": "MATHEMATICS", "theory": "29", "practical": "20", "total": "049" },
+      { "name": "COMPUTER SCIENCE", "theory": "30", "practical": "27", "total": "057" }
+    ],
+    "result": {
+      "markSheetNo": "S288862",
+      "certificateNo": "S266593",
+      "aggregateTotal": "300*",
+      "finalResult": "1ST DIVISION"
+    }
+  },
+  "databaseData": {
+    "studentInfo": {
+      "rollCode": "7113",
+      "schoolName": "M.L.J. COLLEGE ,CHAMPANAGAR,BHAGALPUR",
+      "rollNo": "10391",
+      "uniqueId": null,
+      "name": "RITIK DULAR",
+      "motherName": "AADYA CHOUDHARY",
+      "fatherName": "PURUSHOTTAM",
+      "registrationNo": "7113-R-0233/10",
+      "sex": "MALE",
+      "caste": "HINDU",
+      "category": "REG."
+    },
+    "subjects": [
+      { "name": "ENGLISH", "theory": "25", "practical": null, "total": "053" },
+      { "name": "PHYSICS", "theory": "16", "practical": "11", "total": "26" },
+      { "name": "CHEMISTRY", "theory": "24", "practical": "16", "total": "27" },
+      { "name": "MATHEMATICS", "theory": "29", "practical": "20", "total": "51" },
+      { "name": "COMPUTER SCIENCE", "theory": "30", "practical": "27", "total": "057" }
+    ],
+    "result": {
+      "markSheetNo": "S288862",
+      "certificateNo": "S266593",
+      "aggregateTotal": "300*",
+      "finalResult": "1ST DIVISION"
+    }
+  }
+}
