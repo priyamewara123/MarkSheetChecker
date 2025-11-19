@@ -7,8 +7,7 @@ const fs = require("fs"); // No longer needed for file reading, but keep for cle
 // --- API and App Setup ---
 const app = express();
 app.use(cors({
-  origin: "http://localhost:5173", // frontend URL
-  methods: ["GET", "POST"],
+  origin: "*",
   credentials: true
 }));
 const port = 3000;
