@@ -32,7 +32,7 @@ export default function App() {
     formData.append("marksheetImage", file);
 
     try {
-      const res = await fetch("https://trscraper.vercel.app/api/verify-marksheet", {
+      const res = await fetch("http://localhost:3000/api/verify-marksheet", {
         method: "POST",
         body: formData,
       });
