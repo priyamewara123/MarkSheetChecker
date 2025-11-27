@@ -6,6 +6,8 @@ const fs = require("fs"); // No longer needed for file reading, but keep for cle
 
 // --- API and App Setup ---
 const app = express();
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 app.use(cors({
   origin: "http://localhost:5173", // frontend URL
   methods: ["GET", "POST"],
@@ -13,6 +15,7 @@ app.use(cors({
 }));
 const port = 3000;
 const genAI = new GoogleGenerativeAI("AIzaSyCaVxkHNqSjm46Mk_wvutPubeUTBnjRF9Q");
+
 
 // --- Multer Setup (In-Memory) ---
 // --- 1. THIS IS THE MAIN CHANGE ---
